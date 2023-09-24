@@ -1,0 +1,30 @@
+body {
+    display       : flex;
+    flex-direction: column;
+    line-height   : 1.5;
+    font-family   : 'Roboto', sans-serif;
+    padding       : 10px;
+}
+
+a {
+    color: #dc8686;
+}
+
+.profile-image {
+    border-radius: 100%;
+    object-fit   : cover;
+    margin: auto;
+}
+
+.social-accounts {
+    display       : flex;
+    flex-direction: column;
+}
+
+.social-accounts span {
+    width: 150px;
+}
+
+.social-accounts span a {
+    float: right;
+}
